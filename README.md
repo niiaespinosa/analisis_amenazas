@@ -3,7 +3,7 @@ Este repositorio tiene como objetivo funcionar a modo de proyecto entry-level re
 El código actualizándose en tiempo real es:  
 https://colab.research.google.com/drive/1n1M5qlvTx3KaI0c-xxQSMDstLjXQhxjI#scrollTo=gqsBMDhTr8Hd  
 
-El análisis mostrado en Jupyter Notebook tiene como propósito guiar a personas con poca experiencia a realizar su primer proyecto, no como un análisis completo, se recomienda explorar otras variables y tipos de gëafico.  
+El análisis mostrado en Jupyter Notebook tiene como propósito guiar a personas con poca experiencia a realizar su primer proyecto, no como un análisis completo, se recomienda explorar otras variables y tipos de gráfico.  
 Siéntase libre de utilizar la información proporcionada aquí.  
 
 Los datos se obtuvieron a través de ThreatFox. 
