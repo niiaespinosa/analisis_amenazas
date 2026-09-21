@@ -1,5 +1,5 @@
-# analisis_amenazas
-Este repositorio tiene como objetivo funcionar a modo de proyecto entry-level relativo a Ciencia de Datos y Ciberseguridad  
+# Inteligencia de amenazas
+Este repositorio tiene como objetivo funcionar a modo de proyecto entry-level relativo a Ciencia de Datos y Ciberseguridad, así como familiarizarse con la inteligencia de amenazas  
 El código actualizándose en tiempo real es:  
 https://colab.research.google.com/drive/1n1M5qlvTx3KaI0c-xxQSMDstLjXQhxjI#scrollTo=gqsBMDhTr8Hd  
 
