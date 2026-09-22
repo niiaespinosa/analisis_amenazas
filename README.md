@@ -5,15 +5,15 @@ https://colab.research.google.com/drive/1n1M5qlvTx3KaI0c-xxQSMDstLjXQhxjI#scroll
 # Objetivo  
 Generar un flujo de trabajo capaz de automatizar reportes de inteligencia de amenazas a partir de una base de datos sobre IOC.  
 
-#Herramientas y librerías
+# Herramientas y librerías
 Base de datos de ThreatFox  
-Google Colab  
-Python  
-Pandas  
-MatPlotlib  
-Seaborn  
-Lets Plot  
-Markdown  
+* Google Colab  
+* Python  
+* Pandas  
+* MatPlotlib  
+* Seaborn  
+* Lets Plot  
+* Markdown  
 
 # Nota
 El análisis mostrado en Jupyter Notebook tiene como propósito guiar a personas con poca experiencia a realizar su primer proyecto, no como un análisis completo, se recomienda explorar otras variables y tipos de gráfico.  
