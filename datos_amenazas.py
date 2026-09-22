@@ -86,7 +86,7 @@ ax1.set_ylabel("Cantidad de Indicadores (IOCs)", fontsize=12)
 ax1.set_xticklabels(agrupados["threat_type"], rotation=45, ha='right')
 ax1.bar_label(barras, padding=3, fontsize=10, color='black')
 fig1.tight_layout()
-fig1.savefig(f"{carpeta_img}/grafico_barras.png", bbox_inches='tight', transparent=True)
+fig1.savefig(f"{carpeta_img}/grafico_barras.png", bbox_inches='tight')
 plt.close(fig1)
 
 # Gráfico 2: Pastel (Top 5)
@@ -94,7 +94,7 @@ fig2, ax2 = plt.subplots(figsize=(10, 6))
 top_5_amenazas = agrupados.head(5)
 ax2.pie(x=top_5_amenazas['cantidad_detectada'], labels=top_5_amenazas["threat_type"], autopct='%1.1f%%')
 ax2.set_title("Top 5 de Amenazas Detectadas", fontsize=14, pad=15)
-fig2.savefig(f"{carpeta_img}/grafico_pastel.png", bbox_inches='tight', transparent=True)
+fig2.savefig(f"{carpeta_img}/grafico_pastel.png", bbox_inches='tight')
 plt.close(fig2)
 
 # Gráfico 3: Evolución de Líneas
@@ -106,7 +106,7 @@ ax3.set_xlabel("Fecha")
 ax3.set_ylabel("Registros de IOC")
 ax3.grid(True, linestyle='--', alpha=0.7)
 fig3.tight_layout()
-fig3.savefig(f"{carpeta_img}/grafico_lineas.png", bbox_inches='tight', transparent=True)
+fig3.savefig(f"{carpeta_img}/grafico_lineas.png", bbox_inches='tight')
 plt.close(fig3)
 
 # Gráfico 4: Cajas por Día de la Semana
@@ -117,7 +117,7 @@ ax4.set_xlabel("Día de la Semana", fontsize=12)
 ax4.set_ylabel("Volumen de Ataques (Diarios)", fontsize=12)
 ax4.yaxis.grid(True, linestyle='--', alpha=0.7)
 fig4.tight_layout()
-fig4.savefig(f"{carpeta_img}/grafico_cajas.png", bbox_inches='tight', transparent=True)
+fig4.savefig(f"{carpeta_img}/grafico_cajas.png", bbox_inches='tight')
 plt.close(fig4)
 
 # Gráfico 5: Cajas por Hora
@@ -129,7 +129,7 @@ ax5.set_ylabel("Volumen de Ataques (Por Hora)", fontsize=12)
 ax5.set_ylim(top=100, bottom=-10)
 ax5.yaxis.grid(True, linestyle='--', alpha=0.7)
 fig5.tight_layout()
-fig5.savefig(f"{carpeta_img}/grafico_cajas_hora.png", bbox_inches='tight', transparent=True) # Nombre corregido
+fig5.savefig(f"{carpeta_img}/grafico_cajas_hora.png", bbox_inches='tight') # Nombre corregido
 plt.close(fig5)
 
 # Gráfico 6: Lets-Plot (Malware Apilado)
@@ -145,9 +145,7 @@ grafico = (
         x="Familia de Malware", y="Cantidad de Registros", fill="Tipo de Amenaza"
     ) +
     theme(
-        axis_text_x=element_text(angle=90, hjust=1),
-        plot_background=element_rect(fill='transparent', color='transparent'),
-        panel_background=element_rect(fill='transparent', color='transparent')
+        axis_text_x=element_text(angle=90, hjust=1)
     )
 )
 ggsave(grafico, "malware_apilado.png", path=carpeta_img, w=10, h=6, unit='in', dpi=300)
