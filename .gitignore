@@ -1,0 +1,4 @@
+# Virtual environments and databases
+.venv
+uv.lock
+full.csv
