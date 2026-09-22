@@ -1,7 +1,5 @@
 # Inteligencia de amenazas
-Este repositorio tiene como objetivo funcionar a modo de proyecto entry-level relativo a Ciencia de Datos y Ciberseguridad, así como familiarizarse con la inteligencia de amenazas.  
-El código actualizándose en tiempo real es:  
-https://colab.research.google.com/drive/1n1M5qlvTx3KaI0c-xxQSMDstLjXQhxjI#scrollTo=gqsBMDhTr8Hd  
+
 # Objetivo  
 Generar un flujo de trabajo capaz de automatizar reportes de inteligencia de amenazas a partir de una base de datos sobre IOC.  
 
@@ -25,7 +23,10 @@ https://abuse.ch/
 https://threatfox.abuse.ch/  
 
 # Procedimiento
-Se llevó a cabo un flujo de análisis exploratorio e ingeniería sobre los datos. El aprendizaje guiado se encuentra en el notebook ('datos_amenazas.ipynb')  
+Se llevó a cabo un flujo de análisis exploratorio e ingeniería sobre los datos utilizando Python, identificando la estructura del conjunto, así como los cambios necesarios para poder llevar a cabo un estudio con ellos, que se resumió a través de gráficos y métricas clave. El aprendizaje guiado se encuentra en el notebook ('datos_amenazas.ipynb')  
+Este repositorio tiene como objetivo funcionar a modo de proyecto entry-level relativo a Ciencia de Datos y Ciberseguridad, así como familiarizarse con la inteligencia de amenazas.  
+El código actualizándose en tiempo real es:  
+https://colab.research.google.com/drive/1n1M5qlvTx3KaI0c-xxQSMDstLjXQhxjI#scrollTo=gqsBMDhTr8Hd  
 
 # Resultados
 El reporte automático generado se encuentra en 'reporte_amenazas.md'. Este tipo se flujo de trabajo puede generarse fácilmente para distintas bases de datos. No obstante, es importante elaborarlo cuidadosamente. Aún así, posee un gran potencial para identificar y analizar registros de indicadores de compromiso de forma automatizada.  
